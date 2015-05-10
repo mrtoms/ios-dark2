@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6250" systemVersion="14C109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="vXZ-lx-hvc">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6244"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="ufC-wZ-h7g">
+            <objects>
+                <viewController id="vXZ-lx-hvc" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="jyV-Pf-zRb"/>
+                        <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
+                    </layoutGuides>
+                    <view key="view" autoresizesSubviews="NO" contentMode="scaleAspectFit" id="kh9-bI-dsS">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wAs-fs-9Jy">
+                                <rect key="frame" x="72" y="399" width="48" height="48"/>
+                                <state key="normal" backgroundImage="green-up.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted" backgroundImage="red-up.png"/>
+                                <connections>
+                                    <action selector="btn_Click:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="kUe-9e-w4Y"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="2" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="94D-b9-lyz">
+                                <rect key="frame" x="72" y="491" width="48" height="48"/>
+                                <state key="normal" backgroundImage="green-down.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted" backgroundImage="red-down.png"/>
+                                <connections>
+                                    <action selector="btn_Click:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="7pu-qr-NFj"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="3" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Gxs-aX-vG9">
+                                <rect key="frame" x="127" y="448" width="48" height="48"/>
+                                <state key="normal" backgroundImage="green-right.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted" backgroundImage="red-right.png"/>
+                                <connections>
+                                    <action selector="btn_Click:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="U4P-78-xVk"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="1" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gEv-xD-Mc2">
+                                <rect key="frame" x="15" y="448" width="48" height="48"/>
+                                <state key="normal" backgroundImage="green-left.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted" backgroundImage="red-left.png"/>
+                                <connections>
+                                    <action selector="btn_Click:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="kNX-Hb-nqL"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="dark.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="P7g-Da-t6n">
+                                <rect key="frame" x="51" y="145" width="200" height="128"/>
+                            </imageView>
+                            <button opaque="NO" tag="5" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Uzr-xR-XlN">
+                                <rect key="frame" x="232" y="456" width="46" height="30"/>
+                                <state key="normal" title="-">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted" title="缩小"/>
+                                <connections>
+                                    <action selector="btn_Click:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="HXe-4u-M1A"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="6" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="duk-u5-VQz">
+                                <rect key="frame" x="193" y="497" width="46" height="30"/>
+                                <state key="normal" title="左旋">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="btn_Click:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="NO4-rQ-8NC"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="7" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="s5B-C7-dJ5">
+                                <rect key="frame" x="260" y="497" width="46" height="30"/>
+                                <state key="normal" title="右转">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="btn_Click:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="DAO-8C-89f"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="4" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2QC-UV-oqc">
+                                <rect key="frame" x="232" y="417" width="46" height="30"/>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
+                                <state key="normal" title="+"/>
+                                <state key="highlighted" title="放大"/>
+                                <connections>
+                                    <action selector="btn_Click:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="9dJ-9f-maG"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                    <connections>
+                        <outlet property="ImageDark" destination="P7g-Da-t6n" id="VOx-uX-w0D"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="163" y="300"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="dark.jpg" width="1024" height="1024"/>
+        <image name="green-down.png" width="48" height="48"/>
+        <image name="green-left.png" width="48" height="48"/>
+        <image name="green-right.png" width="48" height="48"/>
+        <image name="green-up.png" width="48" height="48"/>
+        <image name="red-down.png" width="48" height="48"/>
+        <image name="red-left.png" width="48" height="48"/>
+        <image name="red-right.png" width="48" height="48"/>
+        <image name="red-up.png" width="48" height="48"/>
+    </resources>
+</document>
