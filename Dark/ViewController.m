@@ -84,7 +84,7 @@ typedef void (^MyBlock) (int ,int);
             break;
             
         default:
-            NSLog(@"no.......");
+            NSLog(@"no.......1");
             break;
     }
     
