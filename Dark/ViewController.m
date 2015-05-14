@@ -41,6 +41,8 @@ typedef void (^MyBlock) (int ,int);
 //        NSLog(@"匿名block successfully");
 //    }];
     
+    NSLog(@"dd");
+    
     //开始动画
     [UIView beginAnimations:nil context:nil];
     

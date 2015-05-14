@@ -37,7 +37,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" tag="3" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Gxs-aX-vG9">
-                                <rect key="frame" x="127" y="448" width="48" height="48"/>
+                                <rect key="frame" x="129" y="448" width="48" height="48"/>
                                 <state key="normal" backgroundImage="green-right.png">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -56,9 +56,6 @@
                                     <action selector="btn_Click:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="kNX-Hb-nqL"/>
                                 </connections>
                             </button>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="dark.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="P7g-Da-t6n">
-                                <rect key="frame" x="51" y="145" width="200" height="128"/>
-                            </imageView>
                             <button opaque="NO" tag="5" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Uzr-xR-XlN">
                                 <rect key="frame" x="232" y="456" width="46" height="30"/>
                                 <state key="normal" title="-">
@@ -96,6 +93,9 @@
                                     <action selector="btn_Click:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="9dJ-9f-maG"/>
                                 </connections>
                             </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="dark.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="P7g-Da-t6n">
+                                <rect key="frame" x="95" y="144" width="200" height="128"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
